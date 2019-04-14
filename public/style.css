@@ -1,0 +1,74 @@
+.container {
+    background-color: aliceblue;
+    width: 80%;
+    height: auto;
+    margin: 40px auto;
+    font-family: 'Cinzel', serif;
+    box-shadow: 3px 3px #ccf5ff;
+
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+    height: 80px;
+    background-color: aquamarine;
+    padding: 10px 0px;
+}
+
+.container:hover {
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+input[type=search] {
+    height: 33px
+}
+
+.far {
+    float: right;
+    padding: 0px 7px;
+}
+
+li {
+
+
+    box-shadow: 2px 2px 2px 2px grey;
+    list-style: none;
+    padding: 10px 0px;
+    padding-left: 10px;
+    /*        cursor: pointer;*/
+
+}
+
+.notes {
+    margin-right: 40px;
+}
+
+.fa-trash-alt {
+    color: orangered;
+}
+
+.fa-edit {
+    color: green;
+}
+
+.add-notes {
+    margin: 40px;
+    padding-bottom: 30px
+}
+
+input[type=text] {
+    height: 33px
+}
+
+button {
+    height: 39px;
+
+    background: aqua;
+}
+
+li input {
+    width: 70%;
+    border: none;
+    background-color: aliceblue;
+}
